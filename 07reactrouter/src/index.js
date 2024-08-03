@@ -8,7 +8,7 @@ import {Route, Router, RouterProvider, createBrowserRouter, createRoutesFromElem
 import Home from './components/home/Home';
 import About from './components/About';
 import Contact from './components/Contact';
-
+import User from './components/user/User';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -16,6 +16,7 @@ const router = createBrowserRouter(
       <Route path='' element={<Home/>}/>
       <Route path='about' element={<About/>}/>
       <Route path='contact' element={<Contact />}/>
+      <Route path='user' element={<User/>}/>
     </Route>
   )
 )
