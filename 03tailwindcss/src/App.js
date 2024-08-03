@@ -12,8 +12,13 @@ function App() {
         <h1 className = 'text-3xl font-bold bg-green-500 p-30 rounded-md' >
         Hello World!
         </h1> 
+        <div class="p-1 flex flex-wrap items-center justify-center">
 
         <Card name={cityName} image={image} des="This is NewYork Autumn Season."   / >
+        <Card name={cityName} image={image} des="This is NewYork Autumn Season."   / >
+        <Card name={cityName} image={image} des="This is NewYork Autumn Season."   / >
+    
+    </div>
 
         </>
     );

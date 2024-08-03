@@ -15,12 +15,11 @@ function App() {
     const removeValue = () => {
         setCounter(counter - 1)
     }
-    return ( <
-        >
-        <
-        h1 > Counter { counter } < /h1>  <
-        button onClick = { addValue } > Add value < /button> <
-        button onClick = { removeValue } > Remove value < /button>  < / >
+    return ( <>
+        <h1 > Counter { counter } </h1>  
+        <button onClick = { addValue } > Add value </button> 
+        <button onClick = { removeValue } > Remove value </button>
+        </>
     );
 }
 
