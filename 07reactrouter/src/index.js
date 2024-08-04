@@ -9,6 +9,7 @@ import Home from './components/home/Home';
 import About from './components/About';
 import Contact from './components/Contact';
 import User from './components/user/User';
+import Github from './components/Github/Github';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -19,6 +20,7 @@ const router = createBrowserRouter(
       <Route path='user' element={<User/>}>
         <Route path=':userId' element={<User/>}/> 
       </Route>
+      <Route path='github' element={<Github/>}/>
     </Route>
   )
 )
